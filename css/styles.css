@@ -1,0 +1,87 @@
+
+
+/*Common styles*/
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img, embed, video, object {
+	max-width: 100%;
+}
+
+a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
+
+
+/*Custom styles*/
+
+
+/*Elements*/
+
+html, body {
+	width: 100%;
+	color: #2d3c49;
+	font-family: sans-serif;
+;
+}
+
+header {
+	display: flex;
+	flex-grow: ;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+hr {
+	border-top: 2px solid #7d97ad;
+}
+
+
+/*Classes*/
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.logo{
+	width: 10%;
+}
+
+.logo img {
+	width: 75px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+
+.title{
+	width: 90%;
+	text-align: right;
+	align-self: flex-end;
+}
+
+
+
+/*IDs*/
+
+
+
+
+/*Media Queries*/
