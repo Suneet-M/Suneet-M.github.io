@@ -37,7 +37,10 @@ header {
 	flex-flow: column nowrap;
 	justify-content: flex-end;
 	align-items: center;
+	padding-bottom: 10px;
 	margin-bottom: 10px;
+	background-color: #455A64;
+	color: white;
 }
 
 h1, h2, h4 {
@@ -101,7 +104,7 @@ section > hr {
 }
 
 .logo img {
-	width: 75px;
+	width: 85px;
 	border-radius: 50%;
 }
 
