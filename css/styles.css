@@ -32,7 +32,7 @@ html, body {
 }
 
 header {
-	height: 50vh;
+	height: 55vh;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: flex-end;
