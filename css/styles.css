@@ -44,24 +44,53 @@ h1, h2, h4 {
 	font-weight: normal;
 }
 
-h2{
+h2 {
 	font-size: 25px;
 	text-align: center;
 	margin: 10px;
 }
 
-hr {
+div > hr {
 	border-top: 1px solid #7d97ad;
 	width: 100%;
 	margin-bottom: 20px;
 }
 
-main{
+main {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	width: 95%;
+	margin: auto;
 }
 
+section {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	display: flex;
+	align-items: center;
+}
+
+section > img {
+	width: 80%;
+	height: 100%;
+	border-radius: 50px 0;
+}
+
+section > p {
+	transform: rotate(90deg);
+	text-align: center;
+	font-family: 'Niramit', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	position: relative;
+
+}
+
+section > hr {
+	border-left: 1px solid #7d97ad;
+	margin-left: 10px;
+}
 
 /*Classes*/
 
@@ -76,11 +105,12 @@ main{
 	border-radius: 50%;
 }
 
-.title{
+.title {
 	text-align: center;
 }
 
-.heading{
+.heading {
+	color: #7d97ad;
 	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
@@ -89,12 +119,26 @@ main{
 
 /*IDs*/
 
-#quote{
-	width: 95%;
+#quote {
+	border-radius: 10px;
 }
 
-#ft-work{
-	width: 100%;
+#ft-work {
+	width: 95%;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#memory, #arcade {
+	right: 30px;
+}
+
+#reader {
+	right: 20px;
+}
+
+#review {
+	right: 45px;
 }
 
 /*Media Queries*/
