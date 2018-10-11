@@ -1,5 +1,4 @@
 
-
 /*Common styles*/
 
 * {
@@ -11,11 +10,6 @@
 
 img, embed, video, object {
 	max-width: 100%;
-}
-
-a, button {
-	min-width: 48px;
-	min-height: 48px;
 }
 
 
@@ -87,7 +81,6 @@ section > p {
 	font-size: 20px;
 	line-height: 25px;
 	position: relative;
-
 }
 
 section > hr {
@@ -95,12 +88,20 @@ section > hr {
 	margin-left: 10px;
 }
 
+footer {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-end;
+}
+
+
 /*Classes*/
 
 .container {
 	width: 100%;
-	height: 100%;
 	padding: 0 10px 0 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 3px 5px #ccc;
 }
 
 .logo img {
@@ -119,6 +120,32 @@ section > hr {
 	flex-wrap: nowrap;
 	align-items: center;
 }
+
+.container-1 {
+	width: 32vw;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px;
+	justify-content: flex-end;
+}
+
+.social {
+	margin-left: 20px;
+	width: 25px;
+	flex-grow: 1;
+	max-width: 35px;
+	max-height: 35px;
+}
+
+.social:first-of-type {
+	margin: 0;
+}
+
+.copyright {
+	font-size: 4vw;
+	color: #B3B3B3;
+}
+
 
 /*IDs*/
 
@@ -145,4 +172,3 @@ section > hr {
 }
 
 /*Media Queries*/
-
