@@ -172,3 +172,13 @@ footer {
 }
 
 /*Media Queries*/
+
+@media screen and (max-width: 359px) {
+	.container-1 {
+		width: 100%;
+	}
+	.social {
+		max-width: 25px;
+		max-height: 25px;
+	}
+}
