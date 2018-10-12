@@ -86,6 +86,7 @@ section > p {
 section > hr {
 	border-left: 1px solid #7d97ad;
 	margin-left: 10px;
+	height: 168px;
 }
 
 footer {
@@ -205,11 +206,44 @@ footer {
 		font-size: 30px;
 	}
 
+	section > hr {
+		height: 200px;
+	}
+
 	section p {
 		font-size: 25px;
 	}
 
 	#review {
 		right: 52px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.logo img {
+		width: 115px;
+	}
+
+	h1 {
+		font-size: 2.4em;
+	}
+	h4 {
+		font-size: 1.4em;
+	}
+
+	h2 {
+		font-size: 34px;
+	}
+
+	section > hr {
+		height: 265px;
+	}
+
+	section p {
+		font-size: 28px;
+	}
+
+	#review {
+		right: 58px;
 	}
 }
