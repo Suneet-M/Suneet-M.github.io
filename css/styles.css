@@ -159,6 +159,7 @@ footer {
 
 .copyright {
 	width: 100%;
+	margin-top: 10px;
 	text-align: right;
 	font-size: 4vw;
 	color: #B3B3B3;
@@ -431,7 +432,7 @@ footer {
 	}
 
 	.copyright {
-		font-size: 2.5vw;
+		font-size: 25px;
 	}
 }
 
