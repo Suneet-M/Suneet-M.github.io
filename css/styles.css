@@ -389,6 +389,11 @@ footer {
 		width: 850px;
 	}
 
+	#ft-work {
+		padding: 0;
+		justify-content: space-between;
+	}
+
 	div > hr {
 		display: none;
 	}
@@ -398,13 +403,14 @@ footer {
 	}
 
 	section {
-		width: 33.33%;
+		width: 32%;
 	}
 
 	.work {
+		width: 100%;
 		border-radius: 0;
 		transform: skew(0);
-		box-shadow: 2px 2px 7px 4px #ccc;
+		box-shadow: 3px 3px 7px 3px #ccc;
 	}
 
 	footer {
