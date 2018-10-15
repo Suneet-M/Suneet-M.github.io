@@ -365,6 +365,10 @@ footer {
 		align-items: center;
 	}
 
+	.logo {
+		padding: 0;
+	}
+
 	.logo img {
 		width: 100px;
 		margin: 0;
