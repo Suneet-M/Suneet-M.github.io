@@ -137,7 +137,7 @@ footer {
 }
 
 .heading {
-	color: #7d97ad;
+	color: #364851;
 	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
@@ -416,6 +416,7 @@ footer {
 
 	article {
 		align-self: flex-end;
+		margin: 35px 0 15px 0;
 	}
 
 	#quote {
