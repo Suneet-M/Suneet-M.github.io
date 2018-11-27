@@ -31,10 +31,6 @@ html, body {
 	background-position: center;
 }
 
-.container {
-	background: radial-gradient(rgba(250,250,250,0.8), transparent);
-}
-
 header {
 	background-color: #455A64;
 }
@@ -81,6 +77,15 @@ section a {
 	align-items: center;
 }
 
+section img {
+	transition: all 0.2s ease-in-out;
+}
+
+section img:hover {
+	transform: scale(1.1);
+	z-index: 1000;
+}
+
 section p {
 	transform: rotate(90deg);
 	text-align: center;
@@ -110,6 +115,8 @@ footer {
 	padding: 0 10px 0 10px;
 	margin-bottom: 10px;
 	box-shadow: 2px 2px 3px 5px #ccc;
+	background: radial-gradient(rgba(250,250,250,0.8), transparent);
+
 }
 
 .container-1 {
@@ -442,9 +449,9 @@ footer {
 
 	.work {
 		width: 100%;
-		border-radius: 0;
 		transform: skew(0);
 		box-shadow: 3px 3px 7px 3px #ccc;
+		border-radius: 5px;
 	}
 
 	footer {
