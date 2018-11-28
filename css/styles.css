@@ -77,15 +77,6 @@ section a {
 	align-items: center;
 }
 
-section img {
-	transition: all 0.2s ease-in-out;
-}
-
-section img:hover {
-	transform: scale(1.1);
-	z-index: 1000;
-}
-
 section p {
 	transform: rotate(90deg);
 	text-align: center;
@@ -343,24 +334,29 @@ footer {
 		align-items: flex-start;
 	}
 
+
 	.work {
 		width: 95%;
 		height: 230px;
 		transform: skew(-6deg);
+		transition: all 0.2s ease-in-out;
 	}
 
 	section hr {
 		width: 70%;
 		height: 1px;
 		border-top: 1px solid #7d97ad;
-		border-left: 0;
 		align-self: flex-start;
 		margin: 20px 0 15px 0;
 	}
-
 	section p {
 		transform: rotate(0);
 		text-align: left;
+	}
+
+	section img:hover {
+		transform: scale(1.1) skew(-6deg);
+		z-index: 1000;
 	}
 
 	#memory, #arcade, #reader, #review {
@@ -445,6 +441,11 @@ footer {
 
 	section {
 		width: 32%;
+	}
+
+	section img:hover {
+		transform: scale(1.1);
+		z-index: 1000;
 	}
 
 	.work {
