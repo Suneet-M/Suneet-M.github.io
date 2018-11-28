@@ -348,15 +348,21 @@ footer {
 		border-top: 1px solid #7d97ad;
 		align-self: flex-start;
 		margin: 20px 0 15px 0;
+		transition: all 0.2s ease-out;
 	}
 	section p {
 		transform: rotate(0);
 		text-align: left;
 	}
 
-	section img:hover {
+	section a:hover img {
 		transform: scale(1.1) skew(-6deg);
 		z-index: 1000;
+	}
+
+	section a:hover hr{
+		transform-origin: -10px 1px;
+		transform: scaleX(1.2);
 	}
 
 	#memory, #arcade, #reader, #review {
@@ -443,7 +449,7 @@ footer {
 		width: 32%;
 	}
 
-	section img:hover {
+	section a:hover img {
 		transform: scale(1.1);
 		z-index: 1000;
 	}
