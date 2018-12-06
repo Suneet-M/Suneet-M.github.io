@@ -37,6 +37,23 @@ header {
 	background-color: #455A64;
 }
 
+header.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-radius: 0 0 5px 5px;
+}
+
+header.sticky .container-1 {
+	height: auto;
+	padding-bottom: 2px;
+	margin: 0;
+}
+
+header.sticky + .container {
+	margin-top: 70px;
+}
+
 h1, h2, h4 {
 	font-weight: normal;
 }
