@@ -50,6 +50,10 @@ header.sticky .container-1 {
 	margin: 0;
 }
 
+header.sticky .title {
+	font-family: 'Raleway', sans-serif;
+}
+
 header.sticky + .container {
 	margin-top: 70px;
 }
