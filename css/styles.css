@@ -75,7 +75,7 @@ header {
 	}
 
 	header.sticky + .container {
-		margin-top: 310px;
+		margin-top: 54vh;
 	}
 	/*------*/
 
