@@ -37,46 +37,47 @@ header {
 	background-color: #455A64;
 	animation: smoothScrollUp 1s forwards;
 }
-
-header.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	border-radius: 0 0 5px 5px;
-	animation: smoothScrollDown 1s forwards;
-}
-
-@keyframes smoothScrollDown {
-	0% {
-		transform: translateY(-40px);
+	/*Sticky header*/
+	header.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		border-radius: 0 0 5px 5px;
+		animation: smoothScrollDown 1s forwards;
 	}
-	100% {
-		transform: translateY(0px);
+
+	@keyframes smoothScrollDown {
+		0% {
+			transform: translateY(-40px);
+		}
+		100% {
+			transform: translateY(0px);
+		}
 	}
-}
 
-@keyframes smoothScrollUp {
-	0% {
-		transform: translateY(40px);
+	@keyframes smoothScrollUp {
+		0% {
+			transform: translateY(40px);
+		}
+		100% {
+			transform: translateY(0px);
+		}
 	}
-	100% {
-		transform: translateY(0px);
+
+	header.sticky .container-1 {
+		height: auto;
+		padding-bottom: 2px;
+		margin: 0;
 	}
-}
 
-header.sticky .container-1 {
-	height: auto;
-	padding-bottom: 2px;
-	margin: 0;
-}
+	header.sticky .title {
+		font-family: 'Raleway', sans-serif;
+	}
 
-header.sticky .title {
-	font-family: 'Raleway', sans-serif;
-}
-
-header.sticky + .container {
-	margin-top: 310px;
-}
+	header.sticky + .container {
+		margin-top: 310px;
+	}
+	/*------*/
 
 h1, h2, h4 {
 	font-weight: normal;
