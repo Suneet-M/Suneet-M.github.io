@@ -9,5 +9,6 @@
 
 ## Future Updates
 
+- [ ] Revamp site from scratch using one of the front-end frameworks (Angular, or React).
 - [ ] use social icons of appropriate size to reduce file sizes.
 - [ ] add linkedin link.
