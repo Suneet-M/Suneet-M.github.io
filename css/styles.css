@@ -35,7 +35,7 @@ html, body {
 
 header {
 	background-color: #455A64;
-	animation: smoothScrollUp 1s forwards;
+	animation: smoothScrollUp 0.5s forwards;
 }
 	/*Sticky header*/
 	header.sticky {
@@ -43,7 +43,7 @@ header {
 		top: 0;
 		width: 100%;
 		border-radius: 0 0 5px 5px;
-		animation: smoothScrollDown 1s forwards;
+		animation: smoothScrollDown 0.5s forwards;
 	}
 
 	@keyframes smoothScrollDown {
